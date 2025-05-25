@@ -31,7 +31,7 @@ class ProvaController extends AbstractController
     #[Route('/api/user/me', name: 'debug_create_user', methods: ['GET'])]
     public function lol(): JsonResponse
     {
-        return $this->json(['message' => 'Hello I am here and logged, the JWT WORKS!'], Response::HTTP_CREATED);
+        return $this->json(['message' => 'Hello I am here and logged, the JWT WORKS!'], Response::HTTP_OK);
     }
 
 
