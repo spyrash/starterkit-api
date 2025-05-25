@@ -110,3 +110,4 @@ Powered by NelmioApiDocBundle
 Need help or want to suggest improvements? Message me on Ko-fi or reach out via the support channel.
 
 Thanks for choosing this Starter Kit and happy coding with Symfony! ❤️
+https://ko-fi.com/spyrash
