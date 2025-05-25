@@ -3,7 +3,7 @@
 namespace App\DTO;
 
 use Symfony\Component\Validator\Constraints as Assert;
-class RegistUserRequest
+class RegisterUserRequest
 {
     #[Assert\NotBlank]
     #[Assert\Email]
