@@ -24,7 +24,6 @@ class UserController extends AbstractController
         #[MapRequestPayload] RegisterUserRequest $registerUserData,
         UserService                              $userService,
         JWTTokenManagerInterface                  $jwtManager,
-        ValidatorInterface                         $validator,
     ): Response
     {
         try {
