@@ -11,7 +11,6 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\MapRequestPayload;
 use Symfony\Component\Routing\Attribute\Route;
-use Symfony\Component\Validator\Validator\ValidatorInterface;
 use Throwable;
 
 class UserController extends AbstractController
@@ -42,4 +41,5 @@ class UserController extends AbstractController
             return $this->json($exception->getMessage(),Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
+    // The login route is implemented by default, you do not need to reinvent the wheel
 }
