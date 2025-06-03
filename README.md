@@ -15,8 +15,13 @@ Perfect if you want to skip setup and get straight to building your app.
 - ✅ Auto-generated API documentation (Swagger via NelmioApiDocBundle)
 - ✅ Clean, modular code (Controllers, Services, DTOs)
 - ✅ Dev-friendly setup (MakerBundle included)
-
----
+ 
+## Jwt logout
+### Logout
+the client delete the token since the jwt is stateless.
+```js
+localStorage.removeItem("jwt_token");
+```
 
 ## ⚠️ Security: What you **must** change after installation
 
