@@ -53,6 +53,7 @@ Options:
 - Restrict it based on APP_ENV != prod
 - Protect it with a temporary secret/token
 
+### NOT DONE YET!!
 ### 🌐 4. Configure CORS properly
 Open config/packages/nelmio_cors.yaml and make sure you restrict allowed domains:
 ```
@@ -60,6 +61,7 @@ allow_origin: ['https://your-domain.com']
 ```
 ⚠️ Avoid using ['*'] in production.
 
+### NOT DONE YET!!
 ### 🚦 5. (Optional) Enable rate limiting
 To protect /api/login from brute-force attacks, add:
 ```
@@ -96,7 +98,7 @@ Then annotate your login controller:
     ```
     symfony server:start
     ```
-   
+### NOT DONE YET!!
 ## 🧾 API Documentation
 ```
 /api/doc
@@ -108,11 +110,10 @@ Powered by NelmioApiDocBundle
 - LexikJWTAuthenticationBundle
 - Doctrine ORM
 - Symfony Security, Validator, Serializer
-- NelmioApiDocBundle (Swagger)
-- PHPUnit
+- NelmioApiDocBundle (Swagger) (not done)
+- PHPUnit (not done)
 
 ## 💬 Support & Feedback
-Need help or want to suggest improvements? Message me on Ko-fi or reach out via the support channel.
 
 Thanks for choosing this Starter Kit and happy coding with Symfony! ❤️
 https://ko-fi.com/spyrash
