@@ -115,5 +115,4 @@ Powered by NelmioApiDocBundle
 
 ## 💬 Support & Feedback
 
-Thanks for choosing this Starter Kit and happy coding with Symfony! ❤️
-https://ko-fi.com/spyrash
+Thanks for choosing this Starter Kit and happy coding with Symfony! 
